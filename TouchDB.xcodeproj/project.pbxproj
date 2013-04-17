@@ -359,6 +359,14 @@
 		27F1E4A61697995C00F0E50F /* TDJSViewCompiler.m in Sources */ = {isa = PBXBuildFile; fileRef = 27F1E4A51697995C00F0E50F /* TDJSViewCompiler.m */; };
 		27F1E4A8169799DA00F0E50F /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27F1E4A7169799DA00F0E50F /* JavaScriptCore.framework */; };
 		27F1E4AB16979A0B00F0E50F /* TDJSViewCompiler_Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 27F1E4AA16979A0B00F0E50F /* TDJSViewCompiler_Test.m */; };
+		3DE4C217171EFB8F00A18547 /* FMDatabasePool.h in Headers */ = {isa = PBXBuildFile; fileRef = 3DE4C213171EFB8F00A18547 /* FMDatabasePool.h */; };
+		3DE4C218171EFB8F00A18547 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DE4C214171EFB8F00A18547 /* FMDatabasePool.m */; };
+		3DE4C219171EFB8F00A18547 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DE4C214171EFB8F00A18547 /* FMDatabasePool.m */; };
+		3DE4C21A171EFB8F00A18547 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DE4C214171EFB8F00A18547 /* FMDatabasePool.m */; };
+		3DE4C21B171EFB8F00A18547 /* FMDatabaseQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = 3DE4C215171EFB8F00A18547 /* FMDatabaseQueue.h */; };
+		3DE4C21C171EFB8F00A18547 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DE4C216171EFB8F00A18547 /* FMDatabaseQueue.m */; };
+		3DE4C21D171EFB8F00A18547 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DE4C216171EFB8F00A18547 /* FMDatabaseQueue.m */; };
+		3DE4C21E171EFB8F00A18547 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DE4C216171EFB8F00A18547 /* FMDatabaseQueue.m */; };
 		DA023B4614BCA94C008184BB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27F0745C11CD50A600E9A2AB /* Foundation.framework */; };
 		DA147C0C14BCA98A0052DA4D /* TDListener.m in Sources */ = {isa = PBXBuildFile; fileRef = 275315DF14ACF0A20065964D /* TDListener.m */; };
 		DA147C0D14BCA98A0052DA4D /* TDHTTPConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 2753160B14ACFC2A0065964D /* TDHTTPConnection.m */; };
@@ -800,6 +808,10 @@
 		27F1E4AA16979A0B00F0E50F /* TDJSViewCompiler_Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TDJSViewCompiler_Test.m; path = ../Source/TDJSViewCompiler_Test.m; sourceTree = "<group>"; };
 		27F87BE61558890600F0A416 /* TDGNUstep.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TDGNUstep.h; sourceTree = "<group>"; };
 		27F87BE71558890700F0A416 /* TDGNUstep.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TDGNUstep.m; sourceTree = "<group>"; };
+		3DE4C213171EFB8F00A18547 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		3DE4C214171EFB8F00A18547 /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		3DE4C215171EFB8F00A18547 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		3DE4C216171EFB8F00A18547 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
 		8DD76F6C0486A84900D96B5E /* TouchDB */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TouchDB; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA023B6414BCA94C008184BB /* libTouchDBListener.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTouchDBListener.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA147C3614BCAC3B0052DA4D /* TouchDBListener.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TouchDBListener.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -1393,6 +1405,10 @@
 		27F0746C11CD51A200E9A2AB /* FMDB */ = {
 			isa = PBXGroup;
 			children = (
+				3DE4C213171EFB8F00A18547 /* FMDatabasePool.h */,
+				3DE4C214171EFB8F00A18547 /* FMDatabasePool.m */,
+				3DE4C215171EFB8F00A18547 /* FMDatabaseQueue.h */,
+				3DE4C216171EFB8F00A18547 /* FMDatabaseQueue.m */,
 				27F0746F11CD51A200E9A2AB /* FMDatabase.h */,
 				27F0747011CD51A200E9A2AB /* FMDatabase.m */,
 				27A82E3414A1145000C0B850 /* FMDatabaseAdditions.h */,
@@ -1541,6 +1557,8 @@
 				27ED9AA1163B01D5000C844A /* TDSocketChangeTracker.h in Headers */,
 				2776A538169F4C41006FF199 /* TDBrowserIDAuthorizer.h in Headers */,
 				2776A5D516A61FD6006FF199 /* TDBrowserIDAuthorizer.h in Headers */,
+				3DE4C217171EFB8F00A18547 /* FMDatabasePool.h in Headers */,
+				3DE4C21B171EFB8F00A18547 /* FMDatabaseQueue.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2090,6 +2108,8 @@
 				27F128B9156AC8F0008465C2 /* OAMutableURLRequest.m in Sources */,
 				270F5702156AD215000FEB8F /* OARequestParameter.m in Sources */,
 				2776A5D616A61FD6006FF199 /* TDBrowserIDAuthorizer.m in Sources */,
+				3DE4C218171EFB8F00A18547 /* FMDatabasePool.m in Sources */,
+				3DE4C21C171EFB8F00A18547 /* FMDatabaseQueue.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2209,6 +2229,8 @@
 				275F535215C04F7B00BAF578 /* MYStreamUtils.m in Sources */,
 				2781E3CB15C31FDA00E970DC /* MYRegexUtils.m in Sources */,
 				2776A5D716A61FD6006FF199 /* TDBrowserIDAuthorizer.m in Sources */,
+				3DE4C21A171EFB8F00A18547 /* FMDatabasePool.m in Sources */,
+				3DE4C21E171EFB8F00A18547 /* FMDatabaseQueue.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2269,6 +2291,8 @@
 				27F0751811CDC80A00E9A2AB /* ExceptionUtils.m in Sources */,
 				27C706421486BBD500F0F099 /* TD_Server.m in Sources */,
 				27C706481487584300F0F099 /* TDURLProtocol.m in Sources */,
+				3DE4C219171EFB8F00A18547 /* FMDatabasePool.m in Sources */,
+				3DE4C21D171EFB8F00A18547 /* FMDatabaseQueue.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
